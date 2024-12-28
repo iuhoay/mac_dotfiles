@@ -1,0 +1,6 @@
+font-family = Mononoki Nerd Font
+theme = tokyonight
+font-size = 16
+background-opacity = 0.95
+cursor-style = block
+macos-titlebar-style = hidden

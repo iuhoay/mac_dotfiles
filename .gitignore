@@ -1,1 +1,4 @@
 .DS_store
+
+config/zed/*
+!config/zed/settings.json

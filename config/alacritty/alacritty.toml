@@ -41,10 +41,16 @@ color = '#db4b4b'
 
 [font]
 size = 16
-normal = { family = "Mononoki Nerd Font", style = "Regular" }
-bold = { family = "Mononoki Nerd Font", style = "Bold" }
-italic = { family = "Mononoki Nerd Font", style = "Italic" }
-bold_italic = { family = "Mononoki Nerd Font", style = "Bold Italic" }
+# normal = { family = "Mononoki Nerd Font", style = "Regular" }
+# bold = { family = "Mononoki Nerd Font", style = "Bold" }
+# italic = { family = "Mononoki Nerd Font", style = "Italic" }
+# bold_italic = { family = "Mononoki Nerd Font", style = "Bold Italic" }
+
+normal = { family = "0xProto Nerd Font", style = "Regular" }
+bold = { family = "0xProto Nerd Font", style = "Bold" }
+italic = { family = "0xProto Nerd Font", style = "Italic" }
+bold_italic = { family = "0xProto Nerd Font", style = "Bold Italic" }
+
 
 [terminal.shell]
 args = ["-l", "-c", "tmux new -s || tmux"]
@@ -55,7 +61,7 @@ padding = { x = 4, y = 0 }
 dynamic_padding = true
 # decorations = "Full"
 decorations = "None"
-opacity = 1
+opacity = 0.95
 
 [cursor]
 style = { shape = "Block", blinking = "On" }

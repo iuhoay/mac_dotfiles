@@ -1,6 +1,11 @@
-font-family = Mononoki Nerd Font
+font-family = 0xProto Nerd Font
+# font-family = Mononoki Nerd Font
+# font-family = Cascadia Code NF
+# font-family = FiraCode Nerd Font
+# font-family = JetBrains Mono Nerd Font
+# font-family = Iosevka Nerd Font
 theme = tokyonight
-font-size = 16
+font-size = 20
 background-opacity = 0.95
 cursor-style = block
-macos-titlebar-style = hidden
+macos-titlebar-style = tabs

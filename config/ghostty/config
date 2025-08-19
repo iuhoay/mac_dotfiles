@@ -1,11 +1,52 @@
-font-family = 0xProto Nerd Font
+# font-family = 0xProto Nerd Font
+font-family = Maple Mono NF CN
 # font-family = Mononoki Nerd Font
 # font-family = Cascadia Code NF
 # font-family = FiraCode Nerd Font
 # font-family = JetBrains Mono Nerd Font
 # font-family = Iosevka Nerd Font
-theme = tokyonight
-font-size = 20
-background-opacity = 0.95
+theme = light:GruvboxLight,dark:Everforest Dark - Hard
+# theme = light:Violet Light,dark:Kanagawa Wave
+font-size = 15
+background-opacity = 0.9
 cursor-style = block
-macos-titlebar-style = tabs
+cursor-color = #a7c080
+shell-integration-features = no-cursor
+# tabs, hidden, native
+macos-titlebar-style = hidden
+
+unfocused-split-opacity = 0.85
+
+window-padding-balance = false
+window-padding-x = 15
+window-padding-y = 15
+
+keybind = global:cmd+e=toggle_quick_terminal
+keybind = cmd+grave_accent=toggle_quick_terminal
+keybind = cmd+r=reload_config
+
+## Tmux style
+#
+## Move focus
+# keybind = ctrl+a>h=goto_split:left
+# keybind = ctrl+a>l=goto_split:right
+# keybind = ctrl+a>j=goto_split:down
+# keybind = ctrl+a>k=goto_split:up
+#
+## Split
+# keybind = ctrl+a>ctrl+h=new_split:left
+# keybind = ctrl+a>ctrl+l=new_split:right
+# keybind = ctrl+a>ctrl+j=new_split:down
+# keybind = ctrl+a>ctrl+k=new_split:up
+#
+## Resize split
+# keybind = cmd+shift+up=resize_split:up,10
+# keybind = cmd+shift+down=resize_split:down,10
+# keybind = cmd+shift+left=resize_split:left,10
+# keybind = cmd+shift+right=resize_split:right,10
+#
+## Toggle split zoom
+# keybind = ctrl+a>z=toggle_split_zoom
+keybind = shift+enter=text:\n
+
+

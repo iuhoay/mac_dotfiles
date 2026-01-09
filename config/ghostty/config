@@ -17,9 +17,12 @@ macos-titlebar-style = hidden
 
 unfocused-split-opacity = 0.85
 
-window-padding-balance = false
-window-padding-x = 15
-window-padding-y = 15
+window-decoration = false
+macos-window-shadow = false
+
+window-padding-balance = true
+window-padding-x = 5
+window-padding-y = 5
 
 keybind = global:cmd+e=toggle_quick_terminal
 keybind = cmd+grave_accent=toggle_quick_terminal

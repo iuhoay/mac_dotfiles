@@ -1,18 +1,39 @@
 # font-family = 0xProto Nerd Font
-font-family = Maple Mono NF CN
+# font-family = 0xProto
+# font-family = Maple Mono NF CN
 # font-family = Mononoki Nerd Font
+font-family = Mononoki
 # font-family = Cascadia Code NF
 # font-family = FiraCode Nerd Font
 # font-family = JetBrains Mono Nerd Font
-# font-family = Iosevka Nerd Font
-theme = light:GruvboxLight,dark:Everforest Dark - Hard
+# font-family = Iosevka
+
+# font-family = Monaspace Neon
+# font-family = Monaspace Argon
+# font-family = Monaspace Xenon
+# font-family = Monaspace Radon
+# font-family = Monaspace Krypton
+
+theme = light:Gruvbox Light,dark:Catppuccin Mocha
+# theme = light:Monokai Pro Light,dark:Everforest Dark Hard
+# theme = light:Rose Pine Dawn,dark:Everforest Dark Hard
 # theme = light:Violet Light,dark:Kanagawa Wave
-font-size = 15
-background-opacity = 0.9
+# theme = light:Catppuccin Latte,dark:Dracula+
+# theme = light:TokyoNight Day,dark:TokyoNight Moon
+# theme = light:Catppuccin Latte,dark:TokyoNight Moon
+
+font-size = 14
+background = #080807
+background-opacity = 1
+background-image = assets/black-paper-full.jpg
+background-image-fit = cover
+background-image-position = center
+background-image-repeat = false
+background-image-opacity = 0.22
 cursor-style = block
 cursor-color = #a7c080
 shell-integration-features = no-cursor
-# tabs, hidden, native
+# tabs, hidden, native, transparent
 macos-titlebar-style = hidden
 
 unfocused-split-opacity = 0.85
@@ -21,8 +42,8 @@ window-decoration = false
 macos-window-shadow = false
 
 window-padding-balance = true
-window-padding-x = 5
-window-padding-y = 5
+window-padding-x = 10
+window-padding-y = 10
 
 keybind = global:cmd+e=toggle_quick_terminal
 keybind = cmd+grave_accent=toggle_quick_terminal
@@ -50,6 +71,4 @@ keybind = cmd+r=reload_config
 #
 ## Toggle split zoom
 # keybind = ctrl+a>z=toggle_split_zoom
-keybind = shift+enter=text:\n
-
-
+# keybind = shift+enter=text:\n

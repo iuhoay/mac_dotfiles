@@ -7,38 +7,62 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Catppuccin Mocha",
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
-  "assistant": {
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-3-5-sonnet"
-    },
-    "version": "2"
-  },
-  "vim_mode": true,
-  "ui_font_size": 14,
-  "buffer_font_size": 16,
-  "buffer_font_family": "0xProto Nerd Font",
+  // === Application ===
+  "auto_update": true,
+  "confirm_quit": true,
+  "restore_on_startup": "last_workspace",
+
+  // === Appearance ===
   "theme": {
     "mode": "system",
-    "light": "Ayu Dark",
-    "dark": "One Dark"
+    "light": "One Light",
+    "dark": "One Dark",
   },
-  "relative_line_numbers": true,
-  "tab_bar": {
-    "show": true
-  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "buffer_font_family": "Mononoki Nerd Font",
+  "buffer_font_features": { "calt": true },
+
+  // === Editor ===
+  "tab_size": 2,
+  "hard_tabs": false,
+  "format_on_save": "on",
+  "show_whitespaces": "selection",
+  "cursor_blink": false,
   "scrollbar": {
-    "show": "never"
+    "show": "never",
   },
-  "tabs": {
-    "show_diagnostics": "errors"
+
+  // === Vim ===
+  "vim_mode": true,
+  "vim": {
+    "use_system_clipboard": "always",
+    "toggle_relative_line_numbers": true,
   },
-  "indent_guides": {
-    "enabled": true,
-    "coloring": "indent_aware"
-  }
+
+  // === Git ===
+  "git": {
+    "inline_blame": {
+      "enabled": true,
+    },
+  },
+
+  // === AI / Agents ===
+  "edit_predictions": {
+    "provider": "copilot",
+  },
+  "agent_servers": {
+    "github-copilot-cli": {
+      "type": "registry",
+    },
+    "claude-acp": {
+      "type": "registry",
+    },
+  },
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o",
+    },
+  },
 }

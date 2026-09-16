@@ -2,10 +2,12 @@
 # font-family = 0xProto
 # font-family = Maple Mono NF CN
 # font-family = Mononoki Nerd Font
-font-family = Mononoki
+# font-family = Mononoki
+# font-family = CommitMono
 # font-family = Cascadia Code NF
 # font-family = FiraCode Nerd Font
-# font-family = JetBrains Mono Nerd Font
+# font-family = JetBrainsMono Nerd Font
+font-family = JetBrains Mono
 # font-family = Iosevka
 
 # font-family = Monaspace Neon
@@ -22,7 +24,7 @@ theme = light:Flexoki Light,dark:TokyoNight Moon
 # theme = light:TokyoNight Day,dark:TokyoNight Moon
 # theme = light:Catppuccin Latte,dark:TokyoNight Moon
 
-font-size = 12
+font-size = 14
 # background = #080807
 background-opacity = 1
 cursor-style = block

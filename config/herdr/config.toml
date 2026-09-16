@@ -1,0 +1,56 @@
+onboarding = false
+[ui]
+agent_panel_sort = "spaces"
+show_agent_labels_on_pane_borders = true
+tab_bar_position = "top"
+
+[experimental]
+switch_ascii_input_source_in_prefix = false
+
+[theme]
+name = "tokyo-night"
+auto_switch = true
+
+# Herdr has no Flexoki built-in; paint light chrome to match Ghostty/Zed.
+[theme.custom.light]
+accent = "#24837b"
+panel_bg = "#fffcf0"
+active_row_bg = "#f2f0e5"
+selection_bg = "#e6e4d9"
+surface0 = "#e6e4d9"
+surface1 = "#dad8ce"
+surface_dim = "#f2f0e5"
+overlay0 = "#b7b5ac"
+overlay1 = "#878580"
+text = "#100f0f"
+subtext0 = "#6f6e69"
+mauve = "#a02f6f"
+green = "#66800b"
+yellow = "#ad8301"
+red = "#af3029"
+blue = "#205ea6"
+teal = "#24837b"
+peach = "#bc5215"
+
+[keys]
+prefix = "ctrl+a"
+navigate_workspace_down = "j"
+navigate_workspace_up = "k"
+# break_pane = "prefix+shift+c"
+
+rename_tab = "prefix+,"
+
+[[keys.command]]
+key = "prefix+shift+c"
+type = "plugin_action"
+command = "iuhoay.break-pane.break"
+description = "break pane to new tab"
+
+[[keys.command]]
+key = "prefix+shift+m"
+type = "plugin_action"
+command = "iuhoay.break-pane.move-to-workspace"
+description = "move pane to workspace"
+
+[ui.toast]
+delivery = "system"

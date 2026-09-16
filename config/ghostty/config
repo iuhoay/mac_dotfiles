@@ -14,7 +14,7 @@ font-family = Mononoki
 # font-family = Monaspace Radon
 # font-family = Monaspace Krypton
 
-theme = light:Gruvbox Light,dark:Catppuccin Mocha
+theme = light:Flexoki Light,dark:TokyoNight Moon
 # theme = light:Monokai Pro Light,dark:Everforest Dark Hard
 # theme = light:Rose Pine Dawn,dark:Everforest Dark Hard
 # theme = light:Violet Light,dark:Kanagawa Wave
@@ -22,14 +22,9 @@ theme = light:Gruvbox Light,dark:Catppuccin Mocha
 # theme = light:TokyoNight Day,dark:TokyoNight Moon
 # theme = light:Catppuccin Latte,dark:TokyoNight Moon
 
-font-size = 14
-background = #080807
+font-size = 12
+# background = #080807
 background-opacity = 1
-background-image = assets/black-paper-full.jpg
-background-image-fit = cover
-background-image-position = center
-background-image-repeat = false
-background-image-opacity = 0.22
 cursor-style = block
 cursor-color = #a7c080
 shell-integration-features = no-cursor
